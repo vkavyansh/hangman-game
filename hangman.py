@@ -92,9 +92,11 @@ while not game_over:
             print("\n\nHANGMAN : Please save me :(")
         elif lives == 0:
             game_over = True
+            print("\nCorrect word  :", chosen_word)
             print("\nGAME OVER\nDEAD!!")      
     if '_' not in display:
         game_over = True
+        print("\nYou guessed the correct word :", chosen_word)
         print("\nYOU WIN!!")
         print("\nHANGMAN : You saved my life :)")
 
